@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'TypeScript4 文档',
-  description: 'TypeScript4 最新官方文档翻译',
-  base: '/vuepress-blog-dist/',
+  title: '树不梢的博客',
+  description: '树不梢的博客',
+  base: '/blog/',
   theme: 'reco',
   locales: {
     '/': {
@@ -13,10 +13,10 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '冴羽的 JavaScript 博客',
+        text: '树不梢的博客',
         items: [
-          { text: 'Github', link: 'https://github.com/mqyqingfeng' },
-          { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' },
+          { text: 'Github', link: 'https://github.com/ShuBuShao' },
+          { text: '掘金', link: 'https://juejin.cn/user/4054654612145367/posts' },
         ],
       },
     ],

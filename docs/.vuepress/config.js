@@ -4,9 +4,7 @@ module.exports = {
   base: '/blog/',
   theme: 'reco',
   locales: {
-    '/': {
-      lang: 'zh-CN',
-    },
+    '/': { lang: 'zh-CN' },
   },
   themeConfig: {
     subSidebar: 'auto',
@@ -28,13 +26,16 @@ module.exports = {
         children: [{ title: '学前必读', path: '/' }],
       },
       {
-        title: '基础学习',
-        path: '/handbook/ConditionalTypes',
+        title: 'JavaScript学习',
+        path: '/JavaScriptLearning/usePrettier',
         collapsable: false, // 不折叠
-        children: [
-          { title: '条件类型', path: '/handbook/ConditionalTypes' },
-          { title: '泛型', path: '/handbook/Generics' },
-        ],
+        children: [{ title: '使用Prettier统一格式化项目代码', path: '/JavaScriptLearning/usePrettier' }],
+      },
+      {
+        title: '英语学习',
+        path: '/EnglishLearning/note',
+        collapsable: false, // 不折叠
+        children: [{ title: '英语学习笔记', path: '/EnglishLearning/note' }],
       },
     ],
   },
